@@ -2,3 +2,4 @@ include README
 include src/*.py
 include test/test_*.py
 include test/lena.png
+include example/*.py
