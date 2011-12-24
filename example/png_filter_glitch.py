@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
-import glitch
+import glitchy
 
 
-class PNGFilterGlitch(glitch.PNG):
+class PNGFilterGlitch(glitchy.PNG):
     def glitch(self):
         lines = (self.FILTER_PEATH + line[1:] for line in self.readlines())
         self.raw = ''.join(lines)

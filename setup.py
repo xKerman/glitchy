@@ -9,5 +9,5 @@ setup(name='glitch',
       author='xKerman',
       author_email='xKhorasan@gmail.com',
       url='https://github.com/xKerman',
-      package_dir={'glitch': 'src'},
-      packages=['glitch'])
+      package_dir={'glitchy': 'src'},
+      packages=['glitchy'])
